@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardBackgroundColor="@color/dos"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="6dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre: "
+                android:textColor="@color/uno"
+                android:textColorHighlight="@color/cinco"
+                android:textColorHint="@color/cinco"
+                android:textColorLink="@color/cinco"
+                android:textCursorDrawable="@color/cinco"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvListOrderStatusXML"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Prueba"
+                android:textColor="@color/uno"
+                android:textColorHighlight="@color/cinco"
+                android:textColorHint="@color/cinco"
+                android:textColorLink="@color/cinco"
+                android:textCursorDrawable="@color/cinco"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio: "
+                android:textColor="@color/uno"
+                android:textColorHighlight="@color/cinco"
+                android:textColorHint="@color/cinco"
+                android:textColorLink="@color/cinco"
+                android:textCursorDrawable="@color/cinco"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvListOrderNameXML"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Prueba"
+                android:textColor="@color/uno"
+                android:textColorHighlight="@color/cinco"
+                android:textColorHint="@color/cinco"
+                android:textColorLink="@color/cinco"
+                android:textCursorDrawable="@color/cinco"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnListViewSubtractXML"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Resta"
+                android:textColor="@color/uno"
+                android:textColorHighlight="@color/cinco"
+                android:textColorHint="@color/cinco"
+                android:textColorLink="@color/cinco"
+                android:textCursorDrawable="@color/cinco"
+                android:textSize="20sp"
+                app:backgroundTint="@color/cuatro" />
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvListViewAmountXML"
+                android:layout_width="41dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/uno"
+                android:textColorHighlight="@color/cinco"
+                android:textColorHint="@color/cinco"
+                android:textColorLink="@color/cinco"
+                android:textCursorDrawable="@color/cinco"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnListViewAddXML"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Suma"
+                android:textColor="@color/uno"
+                android:textColorHighlight="@color/cinco"
+                android:textColorHint="@color/cinco"
+                android:textColorLink="@color/cinco"
+                android:textCursorDrawable="@color/cinco"
+                android:textSize="20sp"
+                app:backgroundTint="@color/cuatro" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total: "
+                android:textColor="@color/uno"
+                android:textColorHighlight="@color/cinco"
+                android:textColorHint="@color/cinco"
+                android:textColorLink="@color/cinco"
+                android:textCursorDrawable="@color/cinco"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvListViewTotalXML"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/uno"
+                android:textColorHighlight="@color/cinco"
+                android:textColorHint="@color/cinco"
+                android:textColorLink="@color/cinco"
+                android:textCursorDrawable="@color/cinco"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
