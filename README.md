@@ -1,2 +1,2 @@
 # Cafeterias-ITSCH-Movil
-Aplicacion movil desarrollada para ayudar en la gestion y comercio de los productos alimenticios en las cafeterias del TecNM Campus Ciudad Hidalgo.
+Aplicación móvil desarrollada para ayudar en la gestión y comercio de los productos alimenticios en las cafeterías del TecNM Campus Ciudad Hidalgo.
